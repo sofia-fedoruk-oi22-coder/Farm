@@ -1,0 +1,117 @@
+{
+  "farm_name": "Моя Ферма",
+  "farmer": {
+    "name": "Фермер",
+    "money": 10000,
+    "energy": 85.0,
+    "max_energy": 100.0,
+    "level": 1,
+    "experience": 0.0,
+    "skills": {
+      "animal_care": 10.0,
+      "feeding": 10.0,
+      "milking": 5.0,
+      "shearing": 5.0,
+      "veterinary": 5.0,
+      "trading": 10.0,
+      "breeding": 5.0,
+      "crafting": 5.0
+    },
+    "animals_fed": 1,
+    "products_collected": 1,
+    "animals_bought": 0,
+    "animals_sold": 0,
+    "total_earnings": 0.0,
+    "total_spending": 0.0,
+    "days_played": 0
+  },
+  "animals": [
+    {
+      "id": 1,
+      "animal_type": "chicken",
+      "name": "Курка #1",
+      "age": 1,
+      "health": 100.0,
+      "hunger": 97.5,
+      "happiness": 73.59999999999991,
+      "is_alive": true,
+      "production_cooldown": 17,
+      "breed": "default",
+      "total_fed": 1,
+      "total_produced": 1,
+      "days_on_farm": 1
+    }
+  ],
+  "products": {
+    "chicken_product": {
+      "product_type": "chicken_product",
+      "amount": 0.6999999999999993,
+      "quality": "normal",
+      "days_remaining": 30
+    }
+  },
+  "feeds": {
+    "hay": {
+      "feed_type": "hay",
+      "amount": 49.0,
+      "quality": 100.0,
+      "days_remaining": 180
+    },
+    "grain": {
+      "feed_type": "grain",
+      "amount": 30.0,
+      "quality": 100.0,
+      "days_remaining": 180
+    },
+    "mixed": {
+      "feed_type": "mixed",
+      "amount": 20.0,
+      "quality": 100.0,
+      "days_remaining": 180
+    }
+  },
+  "buildings": [
+    {
+      "building_type": "barn",
+      "name": "Сарай",
+      "level": 1,
+      "capacity": 10
+    },
+    {
+      "building_type": "coop",
+      "name": "Курник",
+      "level": 1,
+      "capacity": 20
+    },
+    {
+      "building_type": "stable",
+      "name": "Хлів",
+      "level": 1,
+      "capacity": 5
+    },
+    {
+      "building_type": "warehouse",
+      "name": "Склад",
+      "level": 1,
+      "capacity": 100
+    }
+  ],
+  "achievements": {
+    "first_animal": true,
+    "ten_animals": false,
+    "fifty_animals": false,
+    "first_sale": false,
+    "rich_farmer": false,
+    "year_passed": false,
+    "all_animals": false,
+    "happy_animals": false
+  },
+  "current_day": 2,
+  "current_hour": 16,
+  "current_season": "spring",
+  "current_weather": "sunny",
+  "days_in_season": 1,
+  "reputation": 0,
+  "next_animal_id": 2,
+  "saved_at": "2026-01-29T22:38:50.433828"
+}
